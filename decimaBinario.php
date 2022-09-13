@@ -5,7 +5,6 @@ $binariosArmazem = array();
 $n = $div;
 
 
-
     do {
         $resto = $n % 2;
         $div = $n / 2;
