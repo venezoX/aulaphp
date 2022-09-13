@@ -1,25 +1,26 @@
 <?php
 
 $numbin = 483;
-$binariosArmazem = array();
 $numbin = $divisor;
+$binariosArmazem = array();
 
+ 
 
     do {
         $resto = $numbin % 2;
         $divisor = $numbin / 2;
         if ($resto == 1 || $resto == 0){
-    array_push($bi,$resto);
+    array_push($binariosArmazem,$resto);
         }
 
     }
 
 while ($divisor > 1);
 
-$rev = array_reverse($bi);
+$rev = array_reverse($binariosArmazen);
 
-foreach ($rev as $bin)
+foreach ($rev as $binariosArmazen)
 
 {
-    echo $bin;
+    echo $binariosArmazem;
 }
