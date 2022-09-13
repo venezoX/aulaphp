@@ -1,20 +1,20 @@
 <?php
 
-$n = 483;
+$numbin = 483;
 $binariosArmazem = array();
-$n = $div;
+$numbin = $divisor;
 
 
     do {
-        $resto = $n % 2;
-        $div = $n / 2;
+        $resto = $numbin % 2;
+        $divisor = $numbin / 2;
         if ($resto == 1 || $resto == 0){
     array_push($bi,$resto);
         }
 
     }
 
-while ($div > 1);
+while ($divisor > 1);
 
 $rev = array_reverse($bi);
 
