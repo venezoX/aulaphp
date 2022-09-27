@@ -22,5 +22,5 @@ for ($i=(count($armazemBinario)-1);$i>=0;$i--)
 foreach ($contrario as $binarioReverso) {
     echo $binarioReverso;
 }
-echo "$binarioReverso  é o binario do número $numero";
+echo "$binarioReverso  é o binario do número 300";
 
