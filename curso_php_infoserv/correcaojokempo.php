@@ -47,6 +47,9 @@ $possibildade =[
         echo "O jogador 1 ".$jogador1."venceu" ;
       }
 
-      if ($possibilidade[$jogador1][$jogador2]=="perde3"){
+     elseif ($possibilidade[$jogador1][$jogador2]=="perde3"){
         echo "O jogador 1 ".$jogador1."venceu" ;
+      }
+      else{
+        echo"Empate";
       }
