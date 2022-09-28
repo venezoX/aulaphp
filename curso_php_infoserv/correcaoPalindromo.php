@@ -1,6 +1,6 @@
 <?php
 
-$palavraOriginal = "otto";
+$palavraOriginal = strtolower ("otto");
 $palavraReverse = "";
 $tamanho = strlen ($palavraOriginal);
 
