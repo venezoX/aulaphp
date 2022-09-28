@@ -13,3 +13,6 @@ apt-get apache2 install
 |tipos estruturais|
 array/vetor/matrizes
 object/class    no objeto vazio ele é representado por parenteses $objetoTeste = new StdClass();
+
+|array associativo|
+Usar sempre que houver opções que precisam atribuir condições
