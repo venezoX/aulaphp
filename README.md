@@ -17,6 +17,6 @@ object/class    no objeto vazio ele é representado por parenteses $objetoTeste 
 |array associativo|
 Usar sempre que houver opções que precisam atribuir condições
 
-left é empate ou vitoria - retorna tudo - rightjoin
-right é só vitoria - retorna somente oq pede - leftjoin
+puxa a primeira tabela e todo mundo - rightjoin
+puxa segunda tabela, somente oq pede - leftjoin
 inside join - ele puxa toda informação das 2 tabelas
